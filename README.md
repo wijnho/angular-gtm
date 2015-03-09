@@ -3,7 +3,7 @@ Google Tag Manager setup for Angular js
 How to use Google Tag Manger to track Ajax site without using additonal pulgin.
 
 ##### Before start
-1. Register your Google Tag Manager account by visiting http://tagmanager.google.com (Recommand V2)
+1. Register your Google Tag Manager account by visiting http://tagmanager.google.com (recommended V2)
 2. Select or Create Acount and Container you wish to setup Tag
 
 ##### After Setup
