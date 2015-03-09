@@ -6,6 +6,11 @@ How to use Google Tag Manger to track Ajax site without using additonal pulgin.
 1. Register your Google Tag Manager account by visiting http://tagmanager.google.com (Recommand V2)
 2. Select or Create Acount and Container you wish to setup Tag
 
+#### After Setup
+1. You need to publish your Tags inorder to works
+2. You also can set your Tags to preview mode for debuging or testing.
+
+
 ## Tracking Setup
 - Page view
 - Transaction (e-commerce tracking)
@@ -24,8 +29,8 @@ How to use Google Tag Manger to track Ajax site without using additonal pulgin.
 ##### Add Triggers (Location Search)
 1. Select **Triggers** from menu on the left, and add **New** Triggers
 2. 
-  Choose Event: **History Change**
-  Fire On: **Some History Changes**
+  - Choose Event: **History Change**
+  - Fire On: **Some History Changes**
     - Select **HisotryChange** from the first dropdown
     - Select **does not contain** from second dropdown
     - Type in **replaceState** into last input field
@@ -42,4 +47,20 @@ How to use Google Tag Manger to track Ajax site without using additonal pulgin.
 3. Create Tag
 4. Lable it's as **GA - Page View**
   
+### Transaction (e-commerce tracking) 
+ 
+##### Add Triggers (Booking Success)
+1. Add New Trigger
+2. 
+ - Choose Event: **Custom Event**
+ - Fire On: **booking-success**
+3. Save as **Booking Success**
+
+##### Add Tags (GA - Transaction)
+1. Add New Tag
+2. Choose **Google Anayltics** and your 'Tag type'
+3. Key in **Tracking ID**
+4. Select **Transaction** from `Track Type` dropdown to track Transaction
+5. Fire On: Choose **Booking Success** after click on 'more' button
+6. Create Tag as **GA - Transaction**
 
